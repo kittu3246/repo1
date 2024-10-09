@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/latestrepo/static/css/main.e6c13ad2.css",
+    "main.js": "/latestrepo/static/js/main.49768bb2.js",
+    "static/js/453.419a5d54.chunk.js": "/latestrepo/static/js/453.419a5d54.chunk.js",
+    "index.html": "/latestrepo/index.html",
+    "main.e6c13ad2.css.map": "/latestrepo/static/css/main.e6c13ad2.css.map",
+    "main.49768bb2.js.map": "/latestrepo/static/js/main.49768bb2.js.map",
+    "453.419a5d54.chunk.js.map": "/latestrepo/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.49768bb2.js"
+  ]
+}
