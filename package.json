@@ -1,9 +1,15 @@
 {
   "name": "nearest-user-app",
   "version": "1.0.0",
+  "homepage": "https://kittu3246.github.io/newrepo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +19,13 @@
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
     "socket.io": "^4.8.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nodemon": "^3.1.7"
   }
 }
